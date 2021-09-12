@@ -5,6 +5,28 @@ nav {
     
 }
 
+#mini {
+    float: left;
+    width: 74px;
+    padding-left: 7px;
+}
+
+.appbar {
+    color: #d93025;
+    font: 20px arial, sans-serif;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.appbar > label {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.lineContainer {
+    border-bottom: 1px solid #ebebeb;
+}
+
 nav > ul {
     list-style-type: none;
     margin: 0;
