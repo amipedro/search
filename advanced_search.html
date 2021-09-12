@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <nav>
+        <ul>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="advanced_search.html">Advanced Search</a></li>
+        </ul>
+        <div class="mini">
+            <img src="searchLogo.svg" alt="Google Logo" class="google" id="mini">
+        </div>
+    </nav>
+    <body>
+        <div class="appbar">
+            <label>Advanced Search</label>
+        </div>
+        <div class="lineContainer"></div>
+
+        <div class="advanced">
+            <form action="/search" id="adv" method="GET" name="f">
+                <div class="title">
+                    <span>Find pages with...</span>
+                </div>
+                <div>&nbsp; </div>
+                <div class="search-options">
+                    <div class="atw">
+                        <label>all these words:</label>
+                    </div>
+                    <div class="jfk">
+                        <input class="jfk-textinput" value="" autofocus="autofocus" name="as_q" type="text">
+                    </div>
+                    <div>
+                        "Type the important words:"
+                        <span class="tiny">tri-colour rat terrier</span>
+                    </div>
+                <div>
+            </form>
+        </div>
+
+    </body>
+</html>
