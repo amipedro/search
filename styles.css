@@ -16,11 +16,28 @@ nav {
     font: 20px arial, sans-serif;
     font-size: 20px;
     margin: 25px 35px;
+    padding-top: 15px;
 }
 
 .appbar > label {
     padding-top: 10px;
     margin-left: 10px;
+}
+
+#title {
+    font: 16px arial, sans-serif;
+    color: #333333;
+}
+
+#instructions {
+    font: 13px arial, sans-serif;
+    color:#777777;
+    font-weight: bold;
+}
+
+/** WHAT THE FUCK????? **/
+.search-options {
+    padding-bottom: 10px;
 }
 
 .lineContainer {
@@ -115,4 +132,79 @@ nav ul li a:hover {
 
 #searchButton:hover {
     border: 1px solid #b9b9b95b;
+}
+
+form div div {
+    display: inline-block;
+}
+
+.advanced {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.left-option {
+    float: left;
+    color: #222;
+    font: 13px arial, sans-serif;
+    width: 165px;
+    vertical-align: middle;
+}
+
+.left-option label {
+    vertical-align: middle;
+    height: 30px;
+}
+
+.middle-option {
+    height: 30px;
+}
+
+.text-input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 500px;
+    padding: 1px 8px;
+    vertical-align: middle;
+}
+
+.right-option {
+    font: 11px arial, sans-serif;
+    color: #555555;
+    margin: 5px;
+}
+
+.tiny {
+    font: 11px monospace;
+    color: #666666;
+}
+
+.adv-search {
+    width: 683px;
+    text-align: right;
+}
+
+.adv-button {
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+    box-shadow: none;
+    line-height:100%;
+    height:30px;
+    min-width:120px;
+}
+
+.adv-button:hover {
+    background-color: #4787ed;
+    background-image: none;
 }

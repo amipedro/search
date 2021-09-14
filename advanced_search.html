@@ -6,8 +6,8 @@
     </head>
     <nav>
         <ul>
+            <li><a href="index.html">Search</a></li>
             <li><a href="images.html">Images</a></li>
-            <li><a href="advanced_search.html">Advanced Search</a></li>
         </ul>
         <div class="mini">
             <img src="searchLogo.svg" alt="Google Logo" class="google" id="mini">
@@ -20,25 +20,71 @@
         <div class="lineContainer"></div>
 
         <div class="advanced">
-            <form action="/search" id="adv" method="GET" name="f">
+            <form action="https://google.com/search" id="adv" method="GET" name="f">
+                
                 <div class="title">
-                    <span>Find pages with...</span>
+                    <span id="title">Find pages with...</span>
+                    <div style="width:550px;">&nbsp; </div>
+                    <div id="instructions">To do this in the search box.</div>
                 </div>
+
                 <div>&nbsp; </div>
+
                 <div class="search-options">
-                    <div class="atw">
+                    <div class="left-option">
                         <label>all these words:</label>
                     </div>
-                    <div class="jfk">
-                        <input class="jfk-textinput" value="" autofocus="autofocus" name="as_q" type="text">
+                    <div class="middle-option">
+                        <input class="text-input" value="" autofocus="autofocus" name="as_q" type="text">
                     </div>
-                    <div>
-                        "Type the important words:"
+                    <div class="right-option">
+                        Type the important words:
                         <span class="tiny">tri-colour rat terrier</span>
                     </div>
-                <div>
+                </div>
+                
+                <div class="search-options">
+                    <div class="left-option">
+                        <label>this exact word or prase:</label>
+                    </div>
+                    <div class="middle-option">
+                        <input class="text-input" value="" autofocus="autofocus" name="as_epq" type="text">
+                    </div>
+                    <div class="right-option">
+                        Put exact words in quotes:
+                        <span class="tiny">"rat terrier"</span>
+                    </div>
+                </div>              
+
+                <div class="search-options">
+                    <div class="left-option">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="middle-option">
+                        <input class="text-input" value="" autofocus="autofocus" name="as_oq" type="text">
+                    </div>
+                    <div class="right-option">
+                        Type OR between all the words you want:
+                        <span class="tiny">miniature OR standard</span>
+                    </div>
+                </div>
+
+                <div class="search-options">
+                    <div class="left-option">
+                        <label>none of those words:</label>
+                    </div>
+                    <div class="middle-option">
+                        <input class="text-input" value="" autofocus="autofocus" name="as_eq" type="text">
+                    </div>
+                    <div class="right-option">
+                        Put a minus sign just before words that you don't want:
+                        <span class="tiny">-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div class="adv-search">
+                    <input class="adv-button" value="Advanced Search" type="submit">
+                </div>
             </form>
         </div>
-
     </body>
 </html>
